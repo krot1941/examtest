@@ -1,14 +1,11 @@
-apply plugin: 'java'
+plugins {
+    id 'java'
+  //  id 'pmd' 
+}
 
 repositories {
-    mavenCentral()
+    jcenter()
 }
 
 dependencies {
-    testCompile 'junit:junit:4.12'
-    testCompile("org.assertj:assertj-core:3.11.1")
-}
-
-test {
-    outputs.upToDateWhen { false }
 }
