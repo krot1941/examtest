@@ -1,4 +1,4 @@
-package ru.ac.uniyar.testingcourse;
+package mainpack;
 
 /** 
  * The counter class that allows to increase the counter value,
@@ -23,6 +23,6 @@ public class Counter {
     
     /** Resets the counter value to 0. */
     public void reset() {
-        value = 1;
+        value = 0;
     }
 }

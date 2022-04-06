@@ -1,4 +1,4 @@
-package ru.ac.uniyar.testingcourse;
+package mainpack;
 
 import org.junit.jupiter.api.Test;
 
